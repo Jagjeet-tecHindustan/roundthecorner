@@ -1,0 +1,76 @@
+<template>
+  
+<!--Main Navigation-->
+<header class="bg12">
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+            <a class="navbar-brand" href="#" style="margin-left: 70px;margin-top: 14px;"><img src="http://www.roundthecorner.in/wp-content/uploads/2015/06/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                   
+                </ul>
+                <ul class="navbar-nav" style="margin-right: 70px;font-size: 13px;letter-spacing: 1px;margin-top:20px;">
+                <li class="nav-item">
+                    <a class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">GET YOUR STORE STORE LISTED</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">CONTACT US</a>
+                </li>
+                <li class="nav-item">
+                    <i class="fa fa-bars" aria-hidden="true" style="color:white;margin-top:10px;"></i>
+                </li>
+
+            </ul>
+            </div>
+        </nav>
+
+</header>
+<!--Main Navigation-->
+            
+</template>
+
+<script>
+export default {};
+</script>
+
+<style>
+.navbar {
+  box-shadow: none !important;
+  background-color: transparent;
+}
+.nav-link {
+  color: white !important;
+}
+li a:hover {
+  color: #d91762 !important;
+}
+.top-nav-collapse {
+  background-color: #111213;
+}
+.navbar.scrolling-navbar.top-nav-collapse {
+  height: 67px;
+}
+.navbar.scrolling-navbar.top-nav-collapse img {
+  height: 40px;
+  margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #4285f4;
+  }
+}
+.navbar,
+.pagination .page-item.active .page-link {
+  -webkit-box-shadow: none;
+}
+</style>
