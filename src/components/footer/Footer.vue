@@ -93,7 +93,6 @@ export default {};
 
 <style>
 .roundcorner-footer {
-  margin-top: 3250px;
   background-color: #252932;
   color: white;
 }

@@ -89,4 +89,17 @@ export default {};
   letter-spacing: 1px;
   margin-top: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+  .navbar-brand {
+    margin-left: 10px !important;
+    margin-top: 14px;
+  }
+  .navbar {
+    background-color: #111213;
+  }
+  .top-nav-collapse {
+    background-color: #111213;
+  }
+}
 </style>
