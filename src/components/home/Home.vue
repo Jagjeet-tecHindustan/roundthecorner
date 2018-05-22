@@ -197,12 +197,16 @@
       </p>
        
     </div>
+    <div class="deliveries" id="moveId">
+      <img style="margin-left:40%;margin-top:85px;width:15%;" src="http://www.roundthecorner.in/wp-content/uploads/2016/07/Delivery_boy.gif"> 
+    </div>
+   <div class="deliveries-road" id="moveId"></div>
 
     <div>
      <div class="divider"></div><div class="divider"></div>
          <h1 style="text-align: center; color: #454545; font-size: 32px;"><strong><span style="color: #db0056;">Cities</span></strong></h1>
-         <app-cities></app-cities>
-    </div>
+         <app-cities></app-cities>backround:url(img/http://www.roundthecorner.in/wp-content/themes/RTC-child_tecHindustan/imgs/bg.png)repeat-x;display:block;height:200px;
+    </div>bg
 
 
   <div>
@@ -215,7 +219,7 @@
       <div style="text-align:center;">
         <img class="wp-image-70 alignleft" src="http://www.roundthecorner.in/wp-content/uploads/2015/06/google.png" width="169" height="50">
         <img style="margin-left:15px;" src="http://www.roundthecorner.in/wp-content/uploads/2015/06/apple.png" width="167" height="50">
-        <br><br>
+        <br><br>backround:url(img/http://www.roundthecorner.in/wp-content/themes/RTC-child_tecHindustan/imgs/bg.png)repeat-x;display:block;height:200px;
         <img width="680" height="160" src="http://www.roundthecorner.in/wp-content/uploads/2015/06/img4.png" class="img-responsive-mobile" alt="img4" srcset="http://www.roundthecorner.in/wp-content/uploads/2015/06/img4.png 680w, http://www.roundthecorner.in/wp-content/uploads/2015/06/img4-300x71.png 300w, http://www.roundthecorner.in/wp-content/uploads/2015/06/img4-420x99.png 420w" sizes="(max-width: 680px) 100vw, 680px">
       </div>
   </div>
@@ -227,6 +231,8 @@
 <script>
 import Cities from "./Cities.vue";
 import Product from "./Product.vue";
+let position = 0;
+setInterval(() => {document.querySelector('#moveId').style.backgroundPosition = `-${position}px 0px`; position++}, 1);
 export default {
   components: {
     "app-cities": Cities,
@@ -323,6 +329,17 @@ intro-header {
   color: #454545;
   font-size: 32px;
 }
+.deliveries {
+  background-image: url(http://www.roundthecorner.in/wp-content/themes/RTC-child_tecHindustan/imgs/bg.png) !important;
+  height: 200px;
+}
+.deliveries-road {
+  background-image: url(http://www.roundthecorner.in/wp-content/themes/RTC-child_tecHindustan/imgs/road.png) !important;
+  height: 5px;
+  width: 100%;
+  bottom: 32px;
+  margin-top: 35px;
+}
 #main-features-left i {
   color: #db0056 !important;
   float: right;
@@ -352,6 +369,11 @@ intro-header {
   .img-responsive-productCart {
     width: 250px !important;
     height: 250px !important;
+  }
+  .deliveries img {
+    margin-top: 33%!important;
+    margin-left: 139px!important;
+    width: 32%!important;
   }
 }
 </style>
