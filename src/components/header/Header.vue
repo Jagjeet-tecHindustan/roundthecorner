@@ -10,9 +10,9 @@
                     <ul class="navbar-nav mr-auto"></ul>
                     <ul class="navbar-nav">
                     <li class="nav-item">
-                       <router-link active-class="active" to="/home" class="nav-link" tag="a">
+                       <a class="nav-link">
                        Home
-                      </router-link> 
+                      </a> 
                     </li>
                     <li class="nav-item">
                         <a class="nav-link">ABOUT US</a>
