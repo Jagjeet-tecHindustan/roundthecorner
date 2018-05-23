@@ -205,8 +205,8 @@
     <div>
      <div class="divider"></div><div class="divider"></div>
          <h1 style="text-align: center; color: #454545; font-size: 32px;"><strong><span style="color: #db0056;">Cities</span></strong></h1>
-         <app-cities></app-cities>backround:url(img/http://www.roundthecorner.in/wp-content/themes/RTC-child_tecHindustan/imgs/bg.png)repeat-x;display:block;height:200px;
-    </div>bg
+         <app-cities></app-cities>
+    </div>
 
 
   <div>
@@ -219,7 +219,7 @@
       <div style="text-align:center;">
         <img class="wp-image-70 alignleft" src="http://www.roundthecorner.in/wp-content/uploads/2015/06/google.png" width="169" height="50">
         <img style="margin-left:15px;" src="http://www.roundthecorner.in/wp-content/uploads/2015/06/apple.png" width="167" height="50">
-        <br><br>backround:url(img/http://www.roundthecorner.in/wp-content/themes/RTC-child_tecHindustan/imgs/bg.png)repeat-x;display:block;height:200px;
+        <br><br>
         <img width="680" height="160" src="http://www.roundthecorner.in/wp-content/uploads/2015/06/img4.png" class="img-responsive-mobile" alt="img4" srcset="http://www.roundthecorner.in/wp-content/uploads/2015/06/img4.png 680w, http://www.roundthecorner.in/wp-content/uploads/2015/06/img4-300x71.png 300w, http://www.roundthecorner.in/wp-content/uploads/2015/06/img4-420x99.png 420w" sizes="(max-width: 680px) 100vw, 680px">
       </div>
   </div>
