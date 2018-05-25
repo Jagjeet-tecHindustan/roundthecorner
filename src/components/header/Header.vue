@@ -10,12 +10,14 @@
                     <ul class="navbar-nav mr-auto"></ul>
                     <ul class="navbar-nav">
                     <li class="nav-item">
-                       <a class="nav-link">
-                       Home
-                      </a> 
+                      <router-link active-class="active" to="/home" class="nav-link" tag="a">
+                        HOME
+                      </router-link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">ABOUT US</a>
+                        <router-link active-class="active" to="/about" class="nav-link" tag="a">
+                          ABOUT US
+                        </router-link>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link">GET YOUR STORE STORE LISTED</a>
@@ -23,6 +25,7 @@
                     <li class="nav-item">
                         <a class="nav-link">CONTACT US</a>
                     </li>
+                    
                     <li class="nav-item-icon">
                          <a class="nav-link" data-toggle="modal" data-target="#modalPoll"> <i class="fa fa-bars" aria-hidden="true"></i></a>
                          <!-- Modal: modalPoll -->
@@ -57,7 +60,8 @@
 </template>
 
 <script>
-export default {};
+export default {
+};
 </script>
 
 <style>
@@ -74,6 +78,10 @@ export default {};
 }
 .nav-link {
   color: white !important;
+  line-height: 1.875;
+    font-family: Karla;
+        font-size: 14px;
+    font-weight: 200;
 }
 .nav-item a:hover {
   color: #d91762 !important;
@@ -91,7 +99,7 @@ export default {};
   height: 67px;
 }
 .navbar.scrolling-navbar.top-nav-collapse img {
-  height: 40px;
+  height: 30px;
   margin-bottom: 15px;
 }
 
@@ -109,7 +117,7 @@ export default {};
   margin-right: 70px;
   font-size: 13px;
   letter-spacing: 1px;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 @media only screen and (max-width: 600px) {
